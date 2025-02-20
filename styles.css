@@ -1,0 +1,142 @@
+body {
+  background: rgb(247, 247, 247);
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  
+}
+
+.state-image {
+	max-width: 100px;
+	justify-content: center;
+
+}
+
+aside {
+	width: 40%;
+	float: right;
+	box-shadow: inset 5px 0 5px -5px #000000;
+	
+	
+  }
+  
+  aside > p {
+	margin-left: 0.5rem;
+  }
+  
+
+.center{
+	display: flex;
+	justify-content: center;
+
+}
+nav {
+	
+	margin-left: 35rem;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	
+	max-width: 300px;
+	padding: 1%;
+}
+@keyframes size {
+	from{max-width: 200%;}
+	to{max-width: 30%;}
+}
+
+@keyframes color {
+	from{color:red;}
+	to{color: blue;}
+}
+
+.images {
+	background-color: #000000;
+	display:flex;
+	justify-content: center;
+	
+}
+
+#hello {
+	color: red;
+	animation-name: color;
+	animation-duration: 40s;
+	animation-iteration-count: 1;
+}
+
+
+.color-button {
+	background-color: #f7f304; 
+	color: rgb(0, 0, 0);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.place-button {
+	background-color: #f7f304; 
+	color: rgb(0, 0, 0);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.ritual-button {
+	background-color: #f7f304; 
+	color: rgb(0, 0, 0);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.question-bloch {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+  }
+
+.question-bloch button {
+	height: 60px;
+	width: 60px;
+	background-color: black;
+	color: white;
+	border: 5px solid;
+	border-radius: 25%;
+	font-size: 40px;
+  }
+
+.background-div {
+	border: solid yellow;
+	background-color: orange;
+	margin:  auto;
+	display: inline-block
+}
