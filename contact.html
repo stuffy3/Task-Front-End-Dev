@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link href="styles.css" rel="stylesheet">
+    <script src="contact.js"></script>
+
+</head>
+<body>
+	<div>
+		<div class="center">
+		<h1>Welcome to Contact Us</h1>
+		</div>
+	</div>
+	<div>
+		<nav>
+			<ol>
+				<li class="crumb"><a href="./home.html">Home</a></li>
+				<li class="crumb"><a href="./houston.html">Houston</a></li>
+				<li class="crumb"><a href="./sanantonio.html">San Antonio</a></li>
+				<li class="crumb"><a href="./austin.html">Austin</a></li>
+                <li class="crumb"><a href="./contact.html">Contact Us</a></li>
+			</ol>
+		</nav>
+	</div>
+
+	<content>
+		
+		<!-- insert hello world here -->
+		
+		<div class="images">		
+			<img alt="Texas Mountains" src="https://cdn.outsideonline.com/wp-content/uploads/2024/09/Texas-Casa-Grande-Chisos-MountainsGary-Nored_s.jpg">
+		</div>
+        <form style="padding: 1rem;"id="contact" onsubmit="return validateEmails()">
+            Your First Name:
+            <input type="text">
+            Your Last Name:
+            <input type="text">
+            Email
+            <input id="Email" type="text">
+            Email Confirmation
+            <input id="Email-Confirmation" type="text">
+            Any Questions?
+            <input type="textarea">
+            <input type="submit">
+        </form>
+        
+        <script>
+        function validateEmails() {
+            const email = document.getElementById("Email").value;
+            const emailConfirm = document.getElementById("Email-Confirmation").value;
+        
+            if (email !== emailConfirm) {
+                alert("Email and Email Confirmation do not match.");
+                return false; // Prevent form submission
+            }
+            return true;
+        }
+        </script>
+    </content>
+	
+
+</body>
+</html>

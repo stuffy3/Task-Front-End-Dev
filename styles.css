@@ -8,7 +8,9 @@ body {
   text-align: center;
   
 }
-
+input {
+	margin: 5px auto;
+}
 .state-image {
 	max-width: 100px;
 	justify-content: center;
@@ -35,7 +37,7 @@ aside {
 }
 nav {
 	
-	margin-left: 35rem;
+	margin-left: 30rem;
 }
 
 ol {
@@ -55,6 +57,9 @@ a:visited {
 	color: crimson;
 }
 
+a:hover {
+	color: rgb(255, 166, 0);
+}
 
 input {
 	display: block;
