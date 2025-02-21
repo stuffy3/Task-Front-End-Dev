@@ -5,12 +5,13 @@ body {
   max-width: 1000px;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
-  text-align: center;
+  
   
 }
-input {
-	margin: 5px auto;
-}
+
+
+ 
+
 .state-image {
 	max-width: 100px;
 	justify-content: center;
@@ -26,7 +27,7 @@ aside {
   }
   
   aside > p {
-	margin-left: 0.5rem;
+	margin-left: 1rem;
   }
   
 
@@ -50,15 +51,15 @@ ol {
 }
 
 a {
-	color: orange;
+	color:#BF0D3E;
 }
 
 a:visited {
-	color: crimson;
+	color: rgb(0, 0, 0);
 }
 
 a:hover {
-	color: rgb(255, 166, 0);
+	color:	#00205B;
 }
 
 input {
